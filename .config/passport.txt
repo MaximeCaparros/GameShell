@@ -1,0 +1,4 @@
+ANONYMOUS MODE
+==========
+random salt: 52283
+GSH_UID=aff9473317f7dabc1f64f430a3019a6fd119fbc2

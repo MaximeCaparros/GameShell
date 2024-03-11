@@ -1,0 +1,176 @@
+# START OF COMMANDS HISTORY
+gsh goal
+alias gshg="gsh goal"
+gshg
+alias gshc="gsh check"
+ls
+cd Castle/Main_tower/First_floor/Second_floor/Top_of_the_tower/
+gshc
+gshh
+gshg
+cd /
+cd
+cd Castle/Cellar/
+gsgc
+gshc
+gshg
+cd
+gshc
+ls
+cd
+cd Castle/Main_building/Throne_room/
+gshc
+gshg
+cd
+mkdir Forest/Hut
+gshc
+mkdir Forest/Hut
+mkdir Forest/Hut/chest
+gshc
+mkdir Forest/Hut/Chest
+mkdir -r Forest/Hut/Chest
+mkdir -f Forest/Hut/Chest
+mkdir -d Forest/Hut/Chest
+mkdir  Forest/Hut
+mkdir Forest/Hut/Chest
+gshc
+gshg
+rm Castle/Cellar/spider_*
+gshc
+gshg
+mv Garden/coin_* Forest/Hut/Chest/
+gshc
+gshg
+mv Garden/coin_* Forest/Hut/Chest/
+mv Garden/*coin* Forest/Hut/Chest/
+mv Garden/.*coin* Forest/Hut/Chest/
+gshc
+gshg
+rm Castle/Cellar/*spider*
+gshc
+gshg
+rm Castle/Cellar/.*spider*
+gshc
+gshg
+cp Castle/Great_hall/standard_* Forest/Hut/Chest/
+gshg
+gshc
+gshg
+cp Castle/Great_hall/*tape* Forest/Hut/Chest/
+gshc
+gshg
+ls -l Castle/Main_tower/First_floor/
+cp Castle/Main_tower/First_floor/painting_mLQKqxQh Forest/Hut/Chest/
+gshc
+gshg
+alias la="ls -A"
+gshc
+gshg
+nano Forest/Hut/Chest/journal.txt
+gshc
+gshg
+alais journal="nano ~/Forest/Hut/Chest/journal.txt"
+alias journal="nano ~/Forest/Hut/Chest/journal.txt"
+gshc
+gshg
+gsh restart
+gsh reset
+cd Castle/Cellar/
+la
+gsh reset
+rm .Lair_of_the_spider_queen\ dnIiXVymEAEMbyPE edKDotGHTomLAYQS/yGghxeZThGHoMrDQ_spider_queen_AyTnuHApkzukOKJY 
+gshc
+gshg
+gsh reset
+cd .Lair_of_the_spider_queen\ xHobIGSudfRPzvYv HSwfdexvVncQaJyK/
+rm JmUsqqSXoupnLWJh_spider_queen_yswzTSaaVuMwvCnd 
+gshc
+gshg
+cd
+tree Garden/Maze/
+ls Garden/Maze/
+ls -la Garden/Maze/
+ls -lat Garden/Maze/
+tree
+exit
+tree Garden/Maze/
+mv Garden/Maze/f8237bfc4817c7d4e0f60b/34a37f44d1ae3fe/d991841a8d9de6d87535070692c/OOOOO_copper_coin_OOOOO Forest/Hut/Chest/
+gshc
+gsgc
+alias check="gsh check"
+alias goal="gsh goal"
+check
+goal
+tree Garden/Maze/
+mv Garden/Maze/45f4a0edd1327867168a5/3ca66f97d421/bda42133710b19e66b2cc2f7df3a1d2/OOOOO_silver_coin_OOOOO Forest/Hut/Chest/
+check
+goal
+find -iname "*coin*" Garden/Maze/
+find -iname "coin" Garden/Maze/
+find -iname "coin" 
+find -iname "*coin*" 
+mv ./Garden/Maze/38dde8704840e991505e67ef9d35334/60b47a371e/6f78b8e7e43c/gold_coin_1 Forest/Hut/Chest/
+mv ./Garden/Maze/df71fb7dfc23ef9/cd3caeeab91d8/c1b51fae7c1942edccf33/GolD_CoiN_2 Forest/Hut/Chest/
+check
+goal
+dc Mountain/Cave/
+ls
+cd Mountain/Cave/
+ls
+cat Book_of_potions/table_of_contents 
+cat Book_of_potions/page_05
+cat Book_of_potions/page_07
+head -n 5
+head -n 5 Book_of_potions/page_07
+head -n 6 Book_of_potions/page_07
+check
+goal
+cat Book_of_potions/table_of_contents 
+cat Book_of_potions/page_12
+tail -n 9 Book_of_potions/page_12 
+check
+goal
+cat Book_of_potions/table_of_contents 
+cat Book_of_potions/page_01 Book_of_potions/page_02
+check
+goal
+cat Book_of_potions/table_of_contents 
+cat Book_of_potions/page_03
+tail -n 7 Book_of_potions/page_03 | cat Book_of_potions/page_04
+check
+tail -n 16 Book_of_potions/page_03 |cat Book_of_potions/page_04
+cat Book_of_potions/page_03 Book_of_potions/page_04 | tail -n 16
+check
+goal
+cat Book_of_potions/table_of_contents 
+tail Book_of_potions/page_13
+head -n 5 Book_of_potions/page_13
+head -n 6 Book_of_potions/page_13 | tail -n 3
+check
+goal
+ps
+clear
+ps
+kill 25420
+ps
+clear
+goal
+ps
+ps -a
+ps
+kill 16123
+cd Garden/Maze/
+find . -type f -exec grep rubis '{}' \;
+find . -type f -exec grep rubis 
+find . -type f -exec grep rubis '{}' \;
+find . -type f -exec grep ruby '{}' \;
+check
+gsh check
+find . -type f -exec grep ruby '{}' \;
+find . -type f -exec grep -H ruby '{}' \;
+mv ./47ca07181ff3dfb39e44a85f6/72d57cf5252e313bd/6b51ed7230829bd2dbab26076b69/44609:44609 ruby 26f595b8b155ecf8aa09795f8f5b3a2d129bfa09
+mv ./47ca07181ff3dfb39e44a85f6/72d57cf5252e313bd/6b51ed7230829bd2dbab26076b69/44609 ~/Forest/Hut/Chest/
+gsh check
+gsh goal
+find . -type f -exec grep -l diamond '{}' \; | mv ~/Forest/Hut/Chest/
+exit
