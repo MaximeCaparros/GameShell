@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+export MISSION_DIR="$GSH_ROOT/missions/stdin_stdout_stderr/05_stdout_stderr_redirection_merlin"
+export TEXTDOMAIN="stdin_stdout_stderr,05_stdout_stderr_redirection_merlin"
+exec "$GSH_ROOT/missions/stdin_stdout_stderr/05_stdout_stderr_redirection_merlin/merlin.sh" "$@"

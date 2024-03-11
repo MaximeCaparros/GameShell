@@ -174,3 +174,41 @@ gsh check
 gsh goal
 find . -type f -exec grep -l diamond '{}' \; | mv ~/Forest/Hut/Chest/
 exit
+ls
+gsh goal
+find . -type f -exec grep -l diamond '{}' \;
+find . -type f | grep -l diamond '{}' \; 
+find . -type f -exec grep -l diamond '{}' \; 
+find . -type f -exec grep -l diamond '{}' \; | xargs mv -vt ~/Forest/Hut/Chest/
+gsh check
+gsh goal
+cd Stall/
+ls
+clear
+grep King
+grep King .
+grep . King
+gsh goal
+ls | grep "PAID"
+ls | grep -v "PAID"
+gsh reset
+grep King *boring* | grep -v "PAID"
+ls -hl | grep -v boring
+gsh reset 
+ls -hl | grep -v boring
+grep King 6aada78e_s_c_r_o_l_l_6aada78efc39134b | grep -v "PAID"
+gsh check
+gsh goal
+grep -v "PAID" *boring* | wc -l
+ls
+grep -v "PAID" *boring* | wc -l
+grep King 6aada78e_s_c_r_o_l_l_6aada78efc39134b | grep -v "PAID"
+grep -v "PAID" *boring* | wc -l
+gsh reset
+grep -v "PAID" *boring* | wc -l
+cat 8130fbc70d3ad_boring_object_8130fbc70d3ad8c5 
+ls -hl | grep -v
+ls -hl | grep -v "PAID"
+cat ffdcd7b11bc81_boring_object_ffdcd7b11bc81a6f
+les ffdcd7b11bc81_boring_object_ffdcd7b11bc81a6f
+exit
